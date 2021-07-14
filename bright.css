@@ -1,0 +1,134 @@
+body{
+    
+    background-color:red;
+}
+
+.top-bar{
+    background-color:red;
+}
+.topbar-nav{
+    background-color: red;
+}
+.a{
+    color: red;
+}
+button{
+    color:gray;
+    background-color:blanchedalmond;
+    padding:10px;
+}
+.nav{ 
+    background-color:white;
+    padding: 5pc;
+}
+
+
+.navbar-nav{ 
+    background-color:black;
+} 
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem darkred;
+    z-index: 1;
+}
+.navbar a:hover{
+    background-color: darkred;
+}
+.dropdown-content{
+    display: block;
+}
+.dropbtn {
+    background-color: darkred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:darkred;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .btn {background-color:darkred;}
+
+.container-fluid{
+    align-items: center;
+}
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+
+  .text-block{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration-color: darkred;
+    
+  }
+.text-block: {color:darkred
+    
+}
+  
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid black; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize:vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: darkgoldenrod;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: navajowhite;
+  padding: 20px;
+}
+  
